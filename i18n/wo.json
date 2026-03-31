@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Bellissima Smart Laundry",
+    "tagline": "Laveri bu rafet, smart ak yagg",
+    "cta_contact": "Nangu nu",
+    "address": "Bellissima Smart Laundry, Dakar",
+    "hours": "07:00 – 23:00"
+  },
+  "nav": {
+    "home": "Benn",
+    "concept": "Njàngat",
+    "services": "Jëfandikukat",
+    "technology": "Teknoloji",
+    "gallery": "Foto",
+    "contact": "Kontakti"
+  },
+  "home": {
+    "hero_title": "Laveri premium bu connecte",
+    "hero_sub": "Yagg, saf, smart — benn expérience bu rafet",
+    "discover": "Gëstu Bellissima",
+    "book_now": "Sàmm léegi"
+  },
+  "order": {
+    "select_machine": "Sàmm machine",
+    "machine_8kg": "Lavage 8kg — 1500 XOF",
+    "machine_11kg": "Lavage 11kg — 2500 XOF",
+    "machine_20kg": "Lavage 20kg — 4000 XOF",
+    "pay_card": "Jëfandikoo carte",
+    "pay_cash": "Jëfandikoo cash ci kiosque",
+    "reserve": "Sàmm",
+    "reserve_success": "Sàmm bu am solo",
+    "reserve_until": "Am solo ba",
+    "not_loyalty": "Sàmm bu am solo ci nit yu am loyalty",
+    "login_prompt": "Soxlaal ak sa téléphone ngir am sàmm",
+    "amount_estimated": "Jafe-jafe bu taxaw"
+  },
+  "payment": {
+    "card_checkout": "Dinga dem ci paiement sécurisé",
+    "card_error": "Dogal ci création paiement",
+    "webhook_received": "Notification paiement am na",
+    "paid": "Jëfandikoo",
+    "pending": "Nangu",
+    "failed": "Dëggu"
+  },
+  "cash_info": {
+    "title": "Jëfandikoo cash",
+    "text": "Mën nga jëfandikoo cash ci kiosque. Wax sa tur walla référence bu sàmm.",
+    "address_label": "Turu",
+    "hours_label": "Waxtu",
+    "reference_label": "Référence bu ñu jàpp",
+    "reserve_note": "Ngir jàpp machine, jëfandikoo Sàmm (loyalty members)."
+  },
+  "loyalty": {
+    "join": "Tànn ci programme loyalty",
+    "joined_success": "Tànn am na. Dinga sàmm.",
+    "enter_phone": "Tànn sa téléphone",
+    "enter_name": "Tànn sa tur"
+  },
+  "kiosk": {
+    "confirm_cash": "Sàmm jëfandikoo cash",
+    "reference_placeholder": "Référence (ex: BELL-1A2B3C4D)",
+    "confirm_success": "Jëfandikoo tas",
+    "confirm_error": "Référence amul"
+  },
+  "user": {
+    "login": "Soxlaal",
+    "logout": "Wut",
+    "profile": "Sama profile"
+  },
+  "errors": {
+    "network": "Dogal réseau, jàppal",
+    "server": "Dogal serveur, wax ak admin",
+    "forbidden": "Dara am solo"
+  },
+  "footer": {
+    "follow": "Sàmm nu",
+    "terms": "Térmiin",
+    "privacy": "Privacy"
+  }
+}

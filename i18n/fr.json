@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Bellissima Smart Laundry",
+    "tagline": "Laverie premium, intelligente et rapide",
+    "cta_contact": "Contactez-nous",
+    "address": "Bellissima Smart Laundry, Dakar",
+    "hours": "07:00 – 23:00"
+  },
+  "nav": {
+    "home": "Accueil",
+    "concept": "Concept",
+    "services": "Services",
+    "technology": "Technologie",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "La laverie premium connectée",
+    "hero_sub": "Rapide, propre, intelligente — une expérience sans friction",
+    "discover": "Découvrir Bellissima",
+    "book_now": "Réserver maintenant"
+  },
+  "order": {
+    "select_machine": "Choisir la machine",
+    "machine_8kg": "Lavage 8kg — 1500 FCFA",
+    "machine_11kg": "Lavage 11kg — 2500 FCFA",
+    "machine_20kg": "Lavage 20kg — 4000 FCFA",
+    "pay_card": "Payer par carte",
+    "pay_cash": "Payer en espèces au kiosque",
+    "reserve": "Réserver",
+    "reserve_success": "Réservation confirmée",
+    "reserve_until": "Valide jusqu'à",
+    "not_loyalty": "Réservation réservée aux membres du programme fidélité",
+    "login_prompt": "Connectez-vous avec votre téléphone pour accéder aux réservations",
+    "amount_estimated": "Montant estimé"
+  },
+  "payment": {
+    "card_checkout": "Vous allez être redirigé vers le paiement sécurisé",
+    "card_error": "Erreur lors de la création du paiement",
+    "webhook_received": "Notification de paiement reçue",
+    "paid": "Payé",
+    "pending": "En attente",
+    "failed": "Échoué"
+  },
+  "cash_info": {
+    "title": "Paiement en espèces",
+    "text": "Vous pouvez payer en espèces directement au kiosque de la laverie. Présentez votre nom ou la référence de réservation si vous en avez une.",
+    "address_label": "Adresse",
+    "hours_label": "Horaires",
+    "reference_label": "Référence recommandée",
+    "reserve_note": "Si vous souhaitez garantir la machine, utilisez la fonction Réserver (réservée aux membres fidélité)."
+  },
+  "loyalty": {
+    "join": "S'inscrire au programme fidélité",
+    "joined_success": "Inscription réussie. Vous pouvez maintenant réserver.",
+    "enter_phone": "Entrez votre téléphone",
+    "enter_name": "Entrez votre nom"
+  },
+  "kiosk": {
+    "confirm_cash": "Confirmer paiement espèces",
+    "reference_placeholder": "Référence (ex: BELL-1A2B3C4D)",
+    "confirm_success": "Paiement confirmé",
+    "confirm_error": "Référence introuvable"
+  },
+  "user": {
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "profile": "Mon profil"
+  },
+  "errors": {
+    "network": "Erreur réseau, réessayez",
+    "server": "Erreur serveur, contactez l'administrateur",
+    "forbidden": "Action non autorisée"
+  },
+  "footer": {
+    "follow": "Suivez-nous",
+    "terms": "Conditions",
+    "privacy": "Confidentialité"
+  }
+}

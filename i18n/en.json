@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Bellissima Smart Laundry",
+    "tagline": "Premium, smart and fast laundry",
+    "cta_contact": "Contact us",
+    "address": "Bellissima Smart Laundry, Dakar",
+    "hours": "07:00 – 23:00"
+  },
+  "nav": {
+    "home": "Home",
+    "concept": "Concept",
+    "services": "Services",
+    "technology": "Technology",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "The connected premium laundry",
+    "hero_sub": "Fast, clean, smart — a frictionless experience",
+    "discover": "Discover Bellissima",
+    "book_now": "Book now"
+  },
+  "order": {
+    "select_machine": "Choose machine",
+    "machine_8kg": "Wash 8kg — 1500 XOF",
+    "machine_11kg": "Wash 11kg — 2500 XOF",
+    "machine_20kg": "Wash 20kg — 4000 XOF",
+    "pay_card": "Pay by card",
+    "pay_cash": "Pay cash at kiosk",
+    "reserve": "Reserve",
+    "reserve_success": "Reservation confirmed",
+    "reserve_until": "Valid until",
+    "not_loyalty": "Reservation reserved for loyalty members",
+    "login_prompt": "Log in with your phone to access reservations",
+    "amount_estimated": "Estimated amount"
+  },
+  "payment": {
+    "card_checkout": "You will be redirected to the secure checkout",
+    "card_error": "Error creating payment",
+    "webhook_received": "Payment notification received",
+    "paid": "Paid",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  "cash_info": {
+    "title": "Cash payment",
+    "text": "You can pay cash directly at the kiosk. Present your name or reservation reference if you have one.",
+    "address_label": "Address",
+    "hours_label": "Opening hours",
+    "reference_label": "Recommended reference",
+    "reserve_note": "To guarantee a machine, use Reserve (loyalty members only)."
+  },
+  "loyalty": {
+    "join": "Join loyalty program",
+    "joined_success": "Registration successful. You can now reserve.",
+    "enter_phone": "Enter your phone",
+    "enter_name": "Enter your name"
+  },
+  "kiosk": {
+    "confirm_cash": "Confirm cash payment",
+    "reference_placeholder": "Reference (eg: BELL-1A2B3C4D)",
+    "confirm_success": "Payment confirmed",
+    "confirm_error": "Reference not found"
+  },
+  "user": {
+    "login": "Log in",
+    "logout": "Log out",
+    "profile": "My profile"
+  },
+  "errors": {
+    "network": "Network error, please retry",
+    "server": "Server error, contact admin",
+    "forbidden": "Action not allowed"
+  },
+  "footer": {
+    "follow": "Follow us",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  }
+}

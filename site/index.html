@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bellissima · Paiement</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header><h1>Bellissima Smart Laundry</h1></header>
+    <section id="order">
+      <label for="machine">Machine</label>
+      <select id="machine">
+        <option value="8kg">Lavage 8kg — 1500 FCFA</option>
+        <option value="11kg">Lavage 11kg — 2500 FCFA</option>
+        <option value="20kg">Lavage 20kg — 4000 FCFA</option>
+      </select>
+      <div>
+        <button id="pay-card">Payer par carte</button>
+        <button id="pay-cash">Payer en espèces au kiosque</button>
+        <button id="reserve" style="display:none">Réserver</button>
+      </div>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script>
+    async function createOrder(action='create') {
+      const machine = document.getElementById('machine').value;
+      const resp = await fetch('/orders', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({machine, action})
+      });
+      return resp.json();
+    }
+
+    document.getElementById('pay-card').addEventListener('click', async () => {
+      const order = await createOrder('create');
+      // redirection vers checkout simulée
+      document.getElementById('result').innerText = 'Session de paiement créée. (Sandbox)';
+    });
+
+    document.getElementById('pay-cash').addEventListener('click', () => {
+      const machine = document.getElementById('machine').value;
+      const priceMap = { '8kg':1500, '11kg':2500, '20kg':4000 };
+      const amount = priceMap[machine] || 1500;
+      document.getElementById('result').innerHTML =
+        `<h3>Paiement en espèces</h3>
+         <p>Vous pouvez payer en espèces au kiosque. Adresse : Bellissima Smart Laundry, Dakar.</p>
+         <p>Montant estimé : <strong>${amount} FCFA</strong></p>`;
+    });
+
+    // login simulé pour tests (stock phone)
+    function getPhone(){ return localStorage.getItem('bell_phone'); }
+    async function refreshUI(){
+      const phone = getPhone();
+      if (!phone) { document.getElementById('reserve').style.display='none'; return; }
+      const r = await fetch('/api/user?phone='+encodeURIComponent(phone));
+      if (r.ok){
+        const user = await r.json();
+        if (user && user.is_loyalty===1) document.getElementById('reserve').style.display='inline-block';
+        else document.getElementById('reserve').style.display='none';
+      }
+    }
+    document.getElementById('reserve').addEventListener('click', async () => {
+      const phone = getPhone();
+      const resp = await fetch('/orders', {
+        method:'POST',
+        headers:{'Content-Type':'application/json','X-User-Phone':phone},
+        body: JSON.stringify({machine: document.getElementById('machine').value, action:'reserve'})
+      });
+      const j = await resp.json();
+      document.getElementById('result').innerText = resp.ok ? `Réservation : ${j.reference} (jusqu'à ${j.reserved_until})` : (j.error||'Erreur');
+    });
+
+    // petit login dev
+    if (!getPhone()){
+      const phone = prompt('Entrez votre téléphone pour tests (ex: 770000000)');
+      if (phone) { localStorage.setItem('bell_phone', phone); }
+    }
+    refreshUI();
+  </script>
+</body>
+</html>

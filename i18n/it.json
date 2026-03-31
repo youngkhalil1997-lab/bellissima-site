@@ -1,0 +1,80 @@
+{
+  "site": {
+    "title": "Bellissima Smart Laundry",
+    "tagline": "Lavanderia premium, intelligente e veloce",
+    "cta_contact": "Contattaci",
+    "address": "Bellissima Smart Laundry, Dakar",
+    "hours": "07:00 – 23:00"
+  },
+  "nav": {
+    "home": "Home",
+    "concept": "Concetto",
+    "services": "Servizi",
+    "technology": "Tecnologia",
+    "gallery": "Galleria",
+    "contact": "Contatto"
+  },
+  "home": {
+    "hero_title": "La lavanderia premium connessa",
+    "hero_sub": "Veloce, pulita, intelligente — un'esperienza senza attriti",
+    "discover": "Scopri Bellissima",
+    "book_now": "Prenota ora"
+  },
+  "order": {
+    "select_machine": "Scegli la macchina",
+    "machine_8kg": "Lavaggio 8kg — 1500 XOF",
+    "machine_11kg": "Lavaggio 11kg — 2500 XOF",
+    "machine_20kg": "Lavaggio 20kg — 4000 XOF",
+    "pay_card": "Paga con carta",
+    "pay_cash": "Paga in contanti al chiosco",
+    "reserve": "Prenota",
+    "reserve_success": "Prenotazione confermata",
+    "reserve_until": "Valida fino a",
+    "not_loyalty": "Prenotazione riservata ai membri del programma fedeltà",
+    "login_prompt": "Accedi con il tuo telefono per accedere alle prenotazioni",
+    "amount_estimated": "Importo stimato"
+  },
+  "payment": {
+    "card_checkout": "Verrai reindirizzato al pagamento sicuro",
+    "card_error": "Errore nella creazione del pagamento",
+    "webhook_received": "Notifica di pagamento ricevuta",
+    "paid": "Pagato",
+    "pending": "In attesa",
+    "failed": "Fallito"
+  },
+  "cash_info": {
+    "title": "Pagamento in contanti",
+    "text": "Puoi pagare in contanti direttamente al chiosco. Presenta il tuo nome o il riferimento della prenotazione se ne hai uno.",
+    "address_label": "Indirizzo",
+    "hours_label": "Orari",
+    "reference_label": "Riferimento consigliato",
+    "reserve_note": "Per garantire la macchina, usa Prenota (solo membri fedeltà)."
+  },
+  "loyalty": {
+    "join": "Iscriviti al programma fedeltà",
+    "joined_success": "Registrazione avvenuta. Ora puoi prenotare.",
+    "enter_phone": "Inserisci il tuo telefono",
+    "enter_name": "Inserisci il tuo nome"
+  },
+  "kiosk": {
+    "confirm_cash": "Conferma pagamento in contanti",
+    "reference_placeholder": "Riferimento (es: BELL-1A2B3C4D)",
+    "confirm_success": "Pagamento confermato",
+    "confirm_error": "Riferimento non trovato"
+  },
+  "user": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "profile": "Il mio profilo"
+  },
+  "errors": {
+    "network": "Errore di rete, riprova",
+    "server": "Errore del server, contatta l'amministratore",
+    "forbidden": "Azione non consentita"
+  },
+  "footer": {
+    "follow": "Seguici",
+    "terms": "Termini",
+    "privacy": "Privacy"
+  }
+}
