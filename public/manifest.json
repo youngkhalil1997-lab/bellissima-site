@@ -1,0 +1,27 @@
+{
+  "name": "BELLISSIMA — Laverie Premium Dakar",
+  "short_name": "BELLISSIMA",
+  "description": "Lavage et séchage premium 100% digital à Dakar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0077B6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/admin/favicon-BELLISSIMA.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/admin/apple-touch-icon-BELLISSIMA.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple touch icon"
+    }
+  ],
+  "categories": ["lifestyle", "utilities", "business"],
+  "lang": "fr-FR",
+  "dir": "ltr"
+}

@@ -1,0 +1,297 @@
+{
+  "hero": {
+    "laverie": "Laverie",
+    "digitale": "Digitale",
+    "premium": "Premium",
+    "dakar": "à Dakar",
+    "subtitle": "Déposez votre linge, nous faisons le reste. Une expérience de lavage connectée, rapide et fiable.",
+    "cta_offres": "Voir nos offres",
+    "cta_paiement": "Paiement en ligne"
+  },
+  "features": {
+    "badge": "Pourquoi nous choisir",
+    "title": "Une laverie intelligente à votre service",
+    "subtitle": "Nous combinons technologie de pointe et service premium pour vous offrir la meilleure expérience de lavage à Dakar.",
+    "cards": [
+      {
+        "title": "Paiement Mobile",
+        "desc": "Payez en toute sécurité depuis votre téléphone via Wave, Orange Money, Free Money ou carte bancaire. Plus besoin d'espèces."
+      },
+      {
+        "title": "Suivi en Temps Réel",
+        "desc": "Recevez des notifications à chaque étape : lavage, séchage, pliage. Vous savez exactement quand votre linge est prêt."
+      },
+      {
+        "title": "Qualité Premium",
+        "desc": "Machines industrielles de pointe, détergents hypoallergéniques et cycles adaptés à chaque type de tissu. Un résultat impeccable à chaque fois."
+      },
+      {
+        "title": "Service Rapide",
+        "desc": "Lavage express en 45 minutes ou service standard. Notre système optimisé réduit votre temps d'attente au minimum."
+      }
+    ]
+  },
+  "steps": {
+    "badge": "Comment ça marche",
+    "title": "Trois étapes simples pour un linge impeccable",
+    "list": [
+      {
+        "title": "1. Choisissez votre formule",
+        "desc": "Sélectionnez le service qui vous convient : lavage simple, lavage-repassage ou nettoyage à sec. Indiquez le poids de votre linge."
+      },
+      {
+        "title": "2. Déposez votre linge",
+        "desc": "Apportez votre linge à notre laverie. Nos agents le pèsent, l'étiquettent et le prennent en charge immédiatement."
+      },
+      {
+        "title": "3. Récupérez-le frais et plié",
+        "desc": "Recevez une notification quand c'est prêt. Venez récupérer votre linge parfaitement lavé, séché et plié. Simple comme bonjour."
+      }
+    ]
+  },
+  "offers": {
+    "badge": "Nos offres",
+    "title": "Des formules adaptées à tous vos besoins",
+    "new": "Nouveau",
+    "cards": [
+      {
+        "title": "Lavage Simple",
+        "desc": "Lavage, séchage et pliage. Idéal pour le quotidien. À partir de 2 500 FCFA."
+      },
+      {
+        "title": "Lavage + Repassage",
+        "desc": "Lavage, séchage et repassage professionnel. Parfait pour vos chemises et vêtements de travail. À partir de 4 000 FCFA."
+      },
+      {
+        "title": "Nettoyage à Sec",
+        "desc": "Traitement délicat pour vos vêtements fragiles et costumes. Résultat impeccable garanti. À partir de 6 000 FCFA."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que nos clients disent de nous",
+    "list": [
+      {
+        "author": "Aminata S.",
+        "text": "Enfin une laverie fiable à Dakar ! Je peux payer depuis Wave et suivre ma commande en temps réel. Le linge est toujours parfaitement plié. Je recommande vivement."
+      },
+      {
+        "author": "Moussa D.",
+        "text": "Le service de lavage-repassage est excellent. Mes chemises n'ont jamais été aussi bien repassées. Et la rapidité est incroyable : 45 minutes montre en main."
+      },
+      {
+        "author": "Fatou K.",
+        "text": "Je suis une cliente fidèle depuis l'ouverture. La qualité du nettoyage à sec est remarquable. Mes robes fragiles sont traitées avec beaucoup de soin. Merci Bellissima !"
+      }
+    ]
+  },
+  "vision": {
+    "badge": "Notre vision",
+    "title": "Réinventer la laverie à Dakar",
+    "confiance_title": "Confiance",
+    "confiance_desc": "La transparence est au cœur de notre engagement. Paiement sécurisé, suivi en temps réel et aucun frais caché. Votre linge est entre de bonnes mains.",
+    "excellence_title": "Excellence",
+    "excellence_desc": "Nous utilisons des équipements de pointe et des produits de première qualité pour offrir un résultat irréprochable. Chaque vêtement mérite une attention particulière.",
+    "communauté_title": "Communauté",
+    "communauté_desc": "Nous croyons en une économie locale forte. Bellissima s'associe aux artisans et commerçants dakarois pour créer un réseau de services de confiance."
+  },
+  "counters": {
+    "clients": "5 000+ clients satisfaits",
+    "machines": "20+ machines haut de gamme",
+    "villes": "Dakar et environs",
+    "avis": "4.8/5 — Plus de 1 200 avis"
+  },
+  "cta": {
+    "title": "Prêt à simplifier votre lessive ?",
+    "subtitle": "Rejoignez des milliers de clients satisfaits à Dakar. Déposez votre linge et profitez de votre temps libre.",
+    "services": "Découvrir nos services",
+    "contact": "Nous contacter"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "paiement": "Paiement",
+    "contact": "Contact",
+    "fidelite": "Fidélité",
+    "about": "À propos"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions de lavage professionnelles adaptées à chaque besoin",
+    "badge": "Services",
+    "plans": [
+      {
+        "name": "Lavage Simple",
+        "features": [
+          "Lavage en machine haut de gamme",
+          "Séchage inclus",
+          "Pliage soigné"
+        ],
+        "price_label": "À partir de",
+        "period": "par kg",
+        "cta": "Choisir cette formule"
+      },
+      {
+        "name": "Lavage + Repassage",
+        "features": [
+          "Lavage professionnel",
+          "Séchage inclus",
+          "Repassage main",
+          "Emballage soigné"
+        ],
+        "price_label": "À partir de",
+        "period": "par kg",
+        "cta": "Choisir cette formule"
+      },
+      {
+        "name": "Nettoyage à Sec",
+        "features": [
+          "Nettoyage à sec professionnel",
+          "Détachage spécifique",
+          "Repassage minutieux",
+          "Emballage premium",
+          "Livraison optionnelle"
+        ],
+        "price_label": "À partir de",
+        "period": "par pièce",
+        "cta": "Choisir cette formule"
+      }
+    ],
+    "extras": [
+      {
+        "title": "Lavage Express",
+        "desc": "Votre linge lavé, séché et plié en 45 minutes chrono. Idéal pour les urgences."
+      },
+      {
+        "title": "Service Pliage",
+        "desc": "Nous plions votre linge avec soin. Reprenez-le directement dans votre panier ou faites-vous livrer."
+      },
+      {
+        "title": "Détergents Premium",
+        "desc": "Produits hypoallergéniques, parfums de qualité et adoucissants professionnels pour une sensation de fraîcheur durable."
+      },
+      {
+        "title": "Programme Fidélité",
+        "desc": "Cumulez des points à chaque passage et bénéficiez de réductions exclusives. Plus vous lavez, plus vous économisez."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Une demande spéciale ? Notre équipe est à votre écoute.",
+    "info": [
+      {
+        "label": "Adresse",
+        "value": "Route de la Corniche Ouest, Dakar, Sénégal"
+      },
+      {
+        "label": "Téléphone",
+        "value": "+221 33 000 00 00"
+      },
+      {
+        "label": "Email",
+        "value": "contact@bellissima.sn"
+      },
+      {
+        "label": "Horaires",
+        "value": "Lun–Sam : 7h–22h | Dim : 9h–18h"
+      },
+      {
+        "label": "WhatsApp",
+        "value": "+221 77 000 00 00"
+      }
+    ],
+    "form": {
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "Votre nom et prénom"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "Votre numéro de téléphone"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Écrivez votre message ici..."
+      },
+      "submit": "Envoyer le message",
+      "success": "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons sous 24h.",
+      "error": "Une erreur est survenue lors de l'envoi. Veuillez réessayer.",
+      "connection_error": "Impossible de se connecter au serveur. Vérifiez votre connexion internet."
+    }
+  },
+  "paiement": {
+    "title": "Paiement",
+    "subtitle": "Payez votre lavage en toute sécurité depuis votre mobile",
+    "badge": "Paiement en ligne",
+    "machines": [
+      {
+        "name": "Machine Standard",
+        "price": "3 000 FCFA",
+        "kg": "7 kg",
+        "time": "45 min"
+      },
+      {
+        "name": "Machine Grande Capacité",
+        "price": "4 500 FCFA",
+        "kg": "12 kg",
+        "time": "50 min"
+      },
+      {
+        "name": "Machine XXL",
+        "price": "6 000 FCFA",
+        "kg": "18 kg",
+        "time": "55 min"
+      }
+    ],
+    "steps": {
+      "machine": "Choisir une machine",
+      "payment": "Effectuer le paiement",
+      "confirm": "Confirmation"
+    },
+    "payment": {
+      "title": "Moyen de paiement",
+      "choose_method": "Choisissez votre moyen de paiement"
+    },
+    "options": [
+      {
+        "name": "Wave",
+        "description": "Paiement instantané via Wave — rapide et sans frais"
+      },
+      {
+        "name": "Orange Money",
+        "description": "Payez avec votre compte Orange Money Sénégal"
+      },
+      {
+        "name": "Free Money",
+        "description": "Utilisez Free Money pour un paiement sécurisé"
+      },
+      {
+        "name": "Carte Bancaire",
+        "description": "Visa, Mastercard — paiement sécurisé par carte"
+      },
+      {
+        "name": "Espèces en agence",
+        "description": "Réservez en ligne et payez directement à la laverie"
+      }
+    ],
+    "confirm": {
+      "title": "Confirmation de votre commande",
+      "machine_label": "Machine sélectionnée",
+      "price_label": "Montant total",
+      "method_label": "Moyen de paiement",
+      "submit": "Confirmer et payer",
+      "modify": "Modifier ma sélection"
+    },
+    "back": {
+      "retour": "Retour"
+    },
+    "choose": "Choisir"
+  }
+}

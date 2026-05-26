@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#0099E6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#E6C84C"/>
+    </linearGradient>
+    <linearGradient id="circuitGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#E6C84C"/>
+      <stop offset="100%" stop-color="#B8942E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- B stylisé -->
+  <text x="32" y="38" font-family="'Times New Roman', Georgia, serif" font-size="48" font-weight="bold"
+        fill="url(#blueGrad)" text-anchor="middle" dominant-baseline="central">B</text>
+
+  <!-- Pistes circuit -->
+  <line x1="8" y1="18" x2="18" y2="18" stroke="url(#circuitGold)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="18" cy="18" r="2" fill="#D4AF37"/>
+  <line x1="18" y1="18" x2="18" y2="24" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="18" cy="24" r="1.5" fill="#D4AF37"/>
+
+  <line x1="10" y1="32" x2="16" y2="32" stroke="url(#circuitGold)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="32" r="2" fill="#D4AF37"/>
+
+  <line x1="10" y1="44" x2="16" y2="44" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="16" cy="44" r="1.5" fill="#D4AF37"/>
+
+  <line x1="46" y1="18" x2="54" y2="26" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="46" cy="18" r="1.5" fill="#D4AF37"/>
+
+  <!-- Goutte d'eau -->
+  <path d="M32,12 C38,17 40,24 40,28 C40,32 36,36 32,36 C28,36 24,32 24,28 C24,24 26,17 32,12Z"
+        fill="url(#goldGrad)" opacity="0.95"/>
+</svg>
